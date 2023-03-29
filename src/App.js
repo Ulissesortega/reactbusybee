@@ -9,20 +9,11 @@ import AdminInfo from './Components/AdminInfo';
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <div className="Blackcontainer">
-          <div className="rectangle">
-            <div className="inner-rectangle">
-              <Login />
-            </div>
-          </div>
-        </div>
-
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path='/AdminInfo' element={<AdminInfo />} />
         </Routes>
-      </div>
+    
     </BrowserRouter>
   );
 }
