@@ -3,7 +3,6 @@ import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Form } from 'react-bootstrap';
-import Bkeeper from '../Assets/Bkeeper.png'
 
 export default function BeeKeeper() {
     return (
@@ -24,7 +23,7 @@ export default function BeeKeeper() {
 
                     <Row mb>
                         <Col className='d-flex justify-content-center mt-1'>
-                            <img className='image-radius' src={Bkeeper} width={200} height={250} alt="Logo" />
+                            <img className='image-radius' src={require('../Assets/Bkeeper.png')} width={200} height={250} alt="Logo" />
                         </Col>
                     </Row>
 

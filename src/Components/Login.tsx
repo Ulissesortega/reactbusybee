@@ -3,7 +3,6 @@ import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Logo from '../Assets/Logo.png'
 import BeeKeeper from './BeeKeeper';
 
 
@@ -23,7 +22,7 @@ export default function Login() {
 
             <Row>
               <Col className='d-flex justify-content-center mt-3'>
-                <img className='image-radius' src={Logo} width={200} height={150} alt="Logo" />
+                <img className='image-radius' src={require('../Assets/Logo.png')} width={200} height={150} alt="Logo" />
               </Col>
             </Row>
 
