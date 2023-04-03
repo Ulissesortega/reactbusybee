@@ -1,9 +1,13 @@
 import React from 'react'
 import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Form } from 'react-bootstrap';
 
 export default function AdminInfo() {
+
+
+  
   return (
     <div className="Blackcontainer">
       <div className="rectangle">
@@ -44,17 +48,22 @@ export default function AdminInfo() {
             <Row>
               <Col className='text-center'>
                 <Form.Label className='input-label' htmlFor='Password'>Password:</Form.Label>
-                <Form.Control className='text-input rounded-pill w-75 mx-auto border border-primary text-center' type="text" placeholder="" />
+                <Form.Control className='text-input rounded-pill w-75 mx-auto border border-primary text-center' type="password" placeholder="" />
               </Col>
             </Row>
 
+            <Row className='mt-4'>
+              <Col className='text-center'>
+                {/* Button */}
+                <Link to="/BeeKeeper">
+                  <button className='mx-3 bg-black btn-rounded' >Create User</button>
+                </Link>
+              </Col>
+            </Row>
 
           </Container>
         </div>
       </div>
     </div>
-
-
-
   )
 }

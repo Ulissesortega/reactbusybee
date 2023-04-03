@@ -4,9 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Logo from '../Assets/Logo.png'
-import AdminInfo from './AdminInfo';
+import BeeKeeper from './BeeKeeper';
+
 
 export default function Login() {
+  
+  
   return (
     <div className="Blackcontainer">
       <div className="rectangle">
@@ -33,6 +36,7 @@ export default function Login() {
                 </Link>
               </Col>
             </Row>
+            
 
             <Row className='mt-3'>
               <Col className='text-center'>
@@ -49,7 +53,6 @@ export default function Login() {
                 <button className='mx-3 bg-black btn-rounded'>Kid's Login</button>
               </Col>
             </Row>
-
           </Container>
         </div>
       </div>
