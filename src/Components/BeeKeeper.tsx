@@ -21,7 +21,7 @@ export default function BeeKeeper() {
                         </Col>
                     </Row>
 
-                    <Row mb>
+                    <Row>
                         <Col className='d-flex justify-content-center mt-1'>
                             <img className='image-radius' src={require('../Assets/Bkeeper.png')} width={200} height={250} alt="Logo" />
                         </Col>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from '../Components/Login'
+import Login from './Login'
 import { Container, Row, Col,Nav } from 'react-bootstrap';
 
 export default function View() {

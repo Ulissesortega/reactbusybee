@@ -3,7 +3,6 @@ import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import BeeKeeper from './BeeKeeper';
 
 
 export default function Login() {
