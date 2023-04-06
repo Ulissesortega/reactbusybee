@@ -21,7 +21,7 @@ export default function AdminInfo() {
 
             <Row>
               <Col>
-                <p className='top-text text-center'>Please Enter<br />Your Information</p>
+                <p className='top-text text-center'>Please Enter you<br />Your Information</p>
               </Col>
             </Row>
 
