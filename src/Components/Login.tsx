@@ -40,7 +40,9 @@ export default function Login() {
               <Col className='text-center'>
                 <p className='mb-0 sub-title'>I'm a BeeKeeper</p>
                 {/* Button */}
-                <button className='mx-3 bg-black btn-rounded'>Parent's Login</button>
+                <Link to="/AdminLogin">
+                  <button className='mx-3 bg-black btn-rounded'>Parent's Login</button>
+                </Link>
               </Col>
             </Row>
 

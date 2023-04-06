@@ -12,6 +12,7 @@ import BeeName from './Components/BeeName';
 import StepTwo from './Components/StepTwo';
 import TaskAssigner from './Components/TaskAssigner';
 import RewardsCreator from './Components/RewardsCreator';
+import AdminLogin from './Components/AdminLogin';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/StepTwo' element={<StepTwo/>} />
         <Route path='/TaskAssigner' element={<TaskAssigner/>} />
         <Route path='/RewardsCreator' element={<RewardsCreator/>} />
+        <Route path='/AdminLogin' element={<AdminLogin/>} />
       </Routes>
     </BrowserRouter>
   );
