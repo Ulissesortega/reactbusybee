@@ -17,7 +17,7 @@ export default function BeeKeeper() {
 
                     <Row>
                         <Col>
-                            <p className='top-text text-center'>Awesome!<br />You have become<br /> A Bee Keeper Admin!</p>
+                            <p className='top-text text-center'>Awesome!<br />You have become<br/> <span className='top-text-bold-bee-keeper'>A Bee Keeper Admin!</span></p>
                         </Col>
                     </Row>
 

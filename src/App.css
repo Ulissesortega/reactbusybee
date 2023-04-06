@@ -37,8 +37,9 @@ body {
 }
 
 .sub-title{
-  color: black;
+  color: #99261D;
   font-style: italic;
+  font-weight: bold;
 }
 
 .image-radius{
@@ -52,21 +53,66 @@ body {
   border-radius: 40px;
   padding: 5px;
   width: 175px;
+  border-style: solid;
+  border-color: white .5;
 }
 
 /* This is the CSS for userInfo */
 
 .top-text{
-  color: black;
+  color: #99261D;
   font-size: 20px;
   font-style: italic;
+  font-weight: bold;
 }
 
 .input-label{
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
+  color: #99261D;
 }
 
 
-/* CSS for information to email */
+.btn-rounded-small {
+  color:white;
+  font-size: 22px;
+  font-style: italic;
+  border-radius: 40px;
+  padding: 5px;
+  width: 100px;
+}
+
+.top-text-bold{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.dropdown{
+  border-radius: 40px important;
+  background-color: red important;
+}
+
+.rounded-10 {
+  border-radius: 600px !important;
+}
+
+.btn-rounded-smaller {
+  color:white;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 40px;
+  padding: 1px;
+  width: 73px;
+  margin-left: 4px;
+}
+
+
+.top-text-bold-bee-keeper{
+  color: #99261D;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+}

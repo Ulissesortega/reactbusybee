@@ -1,10 +1,10 @@
 import React from 'react'
 import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-export default function BoyGirl() {
+export default function BeeName() {
     return (
         <div className="Blackcontainer">
             <div className="rectangle">
@@ -18,7 +18,7 @@ export default function BoyGirl() {
 
                         <Row>
                             <Col>
-                                <p className='text-center top-text'>Choose one<br /> of the options bellow</p>
+                                <p className='text-center top-text'>Awesome!</p>
                             </Col>
                         </Row>
 
@@ -28,31 +28,34 @@ export default function BoyGirl() {
                             </Col>
                         </Row>
 
-                        <Row className='mt-2'>
-                            <Col className='text-center'>
-                                {/* Button */}
-                                <Link to="/BeeName">
-                                    <button className='mx-3 bg-black btn-rounded-small'>Boy!</button>
-                                </Link>
+                        <Row>
+                            <Col>
+                                <p className='text-center top-text mt-2'>Let's give our Bee a name:</p>
                             </Col>
                         </Row>
 
                         <Row>
-                            <Col className='d-flex justify-content-center mt-3'>
-                                <img className='image-radius' src={require('../Assets/BeeGirl.png')} width={125} height={125} alt="Logo" />
+                            <Col className='text-center'>
+                                <Form.Label className='input-label' htmlFor='firstName'>My Little Bee Name:</Form.Label>
+                                <Form.Control className='text-input rounded-pill w-75 mx-auto border border-primary text-center' type="text" placeholder="" />
                             </Col>
                         </Row>
 
-                        <Row className='mt-2'>
+                        <Row>
+                            <Col className='text-center'>
+                                <Form.Label className='input-label' htmlFor='Password'>Password:</Form.Label>
+                                <Form.Control className='text-input rounded-pill w-75 mx-auto border border-primary text-center' type="password" placeholder="" />
+                            </Col>
+                        </Row>
+
+                        <Row className='mt-3'>
                             <Col className='text-center'>
                                 {/* Button */}
-                                <Link to="/BeeName">
-                                    <button className='mx-3 bg-black btn-rounded-small'>Girl!</button>
+                                <Link to="/StepTwo">
+                                    <button className='mx-3 bg-black btn-rounded'>Confirm</button>
                                 </Link>
                             </Col>
                         </Row>
-
-                        
 
                     </Container>
                 </div>

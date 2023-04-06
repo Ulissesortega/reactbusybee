@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-
-export default function EmailInfo() {
+export default function StepTwo() {
   return (
     <div className="Blackcontainer">
       <div className="rectangle">
@@ -19,28 +18,36 @@ export default function EmailInfo() {
 
             <Row>
               <Col>
-                <p className='text-center mt-1 top-text'>A Copy of your<br />information<br />has been sent<br />to your email!</p>
+                <p className='text-center top-text'>Our Little Bee is Ready!</p>
               </Col>
             </Row>
 
             <Row>
-              <Col className='d-flex justify-content-center mt-3'>
-                <img className='image-radius' src={require('../Assets/Email1.png')} width={200} height={200} alt="Logo" />
+              <Col className='d-flex justify-content-center mt-1'>
+                <img className='image-radius' src={require('../Assets/BeeGirl.png')} width={125} height={125} alt="Logo" />
               </Col>
             </Row>
 
-            <Row className='mt-4'>
+            <Row>
+              <Col>
+                <p className='text-center top-text-bold mt-3'>Step 2</p>
+                <p className='text-center top-text'>Let's assign some Task<br/>and Start Rewards <br/>for Emily</p>
+                <p className='text-center top-text'></p>
+              </Col>
+            </Row>
+
+            <Row className='mt-5'>
               <Col className='text-center'>
                 {/* Button */}
-                <Link to="/StepOne">
-                  <button className='mx-3 bg-black btn-rounded' >Let's Start!</button>
+                <Link to="/TaskAssigner">
+                  <button className='mx-3 bg-black btn-rounded'>Next</button>
                 </Link>
               </Col>
             </Row>
+
           </Container>
         </div>
       </div>
     </div>
   )
 }
-

@@ -45,6 +45,7 @@ export default function AdminInfo() {
                 <Form.Control className='text-input rounded-pill w-75 mx-auto border border-primary text-center' type="text" placeholder="" />
               </Col>
             </Row>
+            
             <Row>
               <Col className='text-center'>
                 <Form.Label className='input-label' htmlFor='Password'>Password:</Form.Label>
